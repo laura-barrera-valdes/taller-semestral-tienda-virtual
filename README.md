@@ -6,6 +6,7 @@ Aplicación web de tienda virtual con diferentes páginas y funcionalidades.
 - Uso de HTML, JS, CSS para toda la aplicación.
 - Persistencia por medio de firebase.
 
+
 ## Entregas en el semestre:
 
 ### Taller 1:
@@ -15,6 +16,7 @@ HTML, CSS, JS
 
 Página inicial al entrar a una tienda online, con descripción de la tienda, sus productos, entre otros
 
+
 #### Propuesta,  Diseño - 25%
 ##### Septiembre 2 - 8:00 am
 
@@ -23,6 +25,7 @@ Página inicial al entrar a una tienda online, con descripción de la tienda, su
 - Tipografías a usar
 - Grid de 12 columnas
 - Propuesta desktop y mobile 
+
 
 #### Página Funcional - 75%
 ##### Septiembre 30 - 8:00 am
