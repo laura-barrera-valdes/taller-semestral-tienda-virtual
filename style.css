@@ -3,3 +3,84 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.logo{
+    width: 101px;
+    height: 26px;
+    padding: 12px 0px 0px 0px;
+}
+
+.botonlogo{
+    padding: 0px;
+    height: 64px;
+}
+.icondehaze{
+    color: #292121;  
+}
+
+.searchlink{
+    color: #292121;
+    padding: 0px;
+}
+
+.personlink{
+    color: #292121;
+    padding: 0px;
+}
+
+.shoppingcartlink{
+    color: #292121;
+    padding: 0px;
+}
+
+.iconosder{
+    display: flex;
+    align-items: center;
+}
+
+/* MOBILE */
+@media screen and (min-width: 390px) and (max-width: 1280px){
+    .logo{
+        width: 101px;
+        height: 26px;
+        padding: 12px 0px 0px 0px;
+    }
+    .iconsearch{
+        padding: 0px 4px 0px 4px;
+    }
+    .iconperson{
+        padding: 0px 4px 0px 4px;
+    }
+    .iconshoppingcart{
+        padding: 0px 4px 0px 4px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px){
+    .header1{
+        padding: 0px 60px;
+        margin: 0px;
+    }
+
+    .logo{
+        width: 176px;
+        height: 44px;
+        padding: 12px 0px 0px 0px;
+    }
+    
+    .iconsearch{
+        color: #292121;
+        padding: 0px 12px;
+    }
+    
+    .iconperson{
+        color: #292121;
+        padding: 0px 12px;
+    }
+    
+    .iconshoppingcart{
+        color: #292121;
+        padding: 0px 12px;
+    }
+}
