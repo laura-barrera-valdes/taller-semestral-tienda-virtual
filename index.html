@@ -22,8 +22,48 @@
     <!-- escribo link y le doy tab, despues adentro de las comillas escribo las clases -->
     <!-- link es para que el html sepa que sus estilos vienen del archivo css -->
 
+    <!-- Inicio del Modal -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Popbox CSS -->
+    <link rel="stylesheet" type="text/css" href="css/popbox.css">
+
+    <!-- Popbox Js -->
+    <script src="js/popbox.js" defer></script>
+
+    <!-- Final del Modal -->
+
 </head>
 <body>
+  <!-- Inicio del Modal -->
+
+  <button id="open-popup-modal" class="btn">Open Model</button>
+<div id="popup-modal" class="modal">
+<div class="modal-content animated bounce">
+<a class="modal-close">×</a>
+
+<div class="ponerhorizontal">
+  <div class="modal-img">
+  <img class="logomodal" src="https://nafnaf.vtexassets.com/arquivos/logo-black-nafnaf.png" alt=""/>
+  </div>
+  <div class="modal-text">
+  <h2>Suscríbete ahora:</h2>
+  <h6 class="h6modal">Sé la primera persona en enterarte de nuestras últimas noticias y recibe un <b>30%</b> <b>+</b> envío <b>GRATIS</b> en tu primera compra.</h6>
+  </div>
+</div>
+
+<div class="modal-footer">
+<form class="formmodal" action="https://feedburner.google.com/fb/a/mailverify" method="post"
+onsubmit='window.open("//feedburner.google.com/fb/a/mailverify?uri=softwebtuts/NiEc",
+"popupwindow", "scrollbars=yes,width=550,height=520"); return true' target="popupwindow">
+<input type="text" class="modal-input" placeholder="Escribe aquí tu correo"/>
+<input type="submit" class="modal-submit-btn" value="Suscribir"/>
+</form>
+</div>
+</div>
+</div>
+  <!-- Final del Modal -->
     
     <header>
         <nav>
@@ -75,6 +115,5 @@
     <footer>
 
     </footer>
-
 </body>
 </html>

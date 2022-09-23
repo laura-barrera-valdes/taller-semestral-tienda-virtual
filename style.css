@@ -1,8 +1,135 @@
+/*
+Paleta de colores:
+#292121
+#434343
+#797979
+*/
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* Inicio del Modal */
+
+.h6modal{
+    padding-inline: 10px;
+    margin-block: 10px;
+}
+
+.ponerhorizontal{
+    display: flex;
+    align-items: center;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    }
+    .modal-content{
+    background-color: #fafafa;
+    width: 100%;
+    height: 260px;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 650px;
+    margin:auto;
+    border-radius:0px;
+    border: 0px solid #fcfcfc;
+    padding: 15px;
+    -webkit-border-image: url(none) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(none) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(none) 30 stretch;
+    }
+    .modal-close{
+    font-size: 20px;
+    float: right;
+    font-weight: 700;
+    color: #292121;
+    font-size: 25px;
+    margin-top: -10px;
+    transition: all .2s;
+    cursor: pointer;
+    width: auto;
+    }
+    .modal-close:hover{
+    color: #797979;
+    }
+    .modal-img img{
+    width: 100%;
+    }
+    .modal-text{
+    text-align: center;
+    color:#292121;
+    padding: 20px;
+    }
+    .modal-text h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Lato;
+    }
+    .modal-text p{
+    font-size: 17px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+    font-family: Lato;
+    }
+    .modal-footer{
+    padding: 20px 30px;
+    color: #292121;
+    width: auto;
+    background: #ffffff;
+    background-color: #ffffff;
+    margin:-15px;
+    }
+    input[type=text].modal-input{
+    color: rgba(0, 0, 0, 0.5);
+    width:80%;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    outline: rgba(0, 0, 0, 0.5) none 0px;
+    padding: 15px;
+    }
+    input[type=submit].modal-submit-btn{
+    padding: 14px;
+    font-size: 14px;
+    background-color: #292121;
+    color:#ffffff;
+    width:auto;
+    border:none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: -13px;
+    }
+    @media screen and (max-width: 27em) {
+    input[type=text].modal-input{
+    width:90%;
+    margin-bottom: 0px;
+    }
+    input[type=submit].modal-submit-btn{
+    width:90%;
+    }
+    .modal-text p{
+    font-size: 15px;
+    }
+    }
+
+    /* Final del Modal */
+
 /* inicio del carrusel */
 .swiper {
     width: 100%;
