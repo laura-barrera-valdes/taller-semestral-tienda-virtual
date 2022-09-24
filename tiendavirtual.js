@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
     /* spaceBetween: 30, es para poner espacio entre las imagenes*/
     pagination: {
       el: ".swiper-pagination",
@@ -8,12 +8,9 @@ var swiper = new Swiper(".mySwiper", {
 
   /* Inicio del Modal */
 
-  var modal = document.getElementById('popup-modal');
-var btn = document.getElementById("open-popup-modal");
-var span = document.getElementsByClassName("modal-close")[0];
-btn.onclick = function() {
-modal.style.display = "block";
-}
+let modal = document.getElementById('popup-modal');
+let span = document.getElementsByClassName("modal-close")[0];
+
 span.onclick = function() {
 modal.style.display = "none";
 }
