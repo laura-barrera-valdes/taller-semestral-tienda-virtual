@@ -197,6 +197,56 @@ Paleta de colores:
 
 /* MOBILE */
 @media screen and (min-width: 390px) and (max-width: 1280px){
+    .desktop-display {display:none}
+    .mobile-display {display:block}
+    nav{
+        line-height: 30px;
+    }
+    
+    .header2{
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column;
+        background: #292121;
+        padding-inline: 60px;
+        margin: 0px;
+        height: 100px;
+    }
+
+    .nav_inferior{
+        height: 100px;
+    }
+
+    .a1{
+        height: 20;
+        font-size: 12px;
+    }
+
+    .a2{
+        height: 20;
+        font-size: 12px;
+    }
+
+    .a3{
+        height: 20;
+        font-size: 12px;
+    }
+
+    .a4{
+        height: 20;
+        font-size: 12px;
+    }
+
+    .a5{
+        height: 20;
+        font-size: 12px;
+    }
+
+    .a6{
+        height: 20;
+        font-size: 12px;
+    }
     .logo{
         width: 101px;
         height: 26px;
@@ -215,6 +265,8 @@ Paleta de colores:
 
 /* DESKTOP */
 @media screen and (min-width: 1280px){
+    .mobile-display{display:none}
+    .desktop-display{display:block}
     .header1{
         padding-inline: 60px;
         margin: 0px;
