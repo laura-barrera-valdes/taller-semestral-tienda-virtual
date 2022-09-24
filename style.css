@@ -216,8 +216,52 @@ Paleta de colores:
 /* DESKTOP */
 @media screen and (min-width: 1280px){
     .header1{
-        padding: 0px 60px;
+        padding-inline: 60px;
         margin: 0px;
+    }
+
+    .header2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #292121;
+        padding-inline: 60px;
+        margin: 0px;
+        height: 40px;
+    }
+
+    .nav_inferior{
+        height: 30px;
+    }
+
+    .p1{
+        height: 20;
+        font-size: 15px;
+    }
+
+    .p2{
+        height: 20;
+        font-size: 15px;
+    }
+
+    .p3{
+        height: 20;
+        font-size: 15px;
+    }
+
+    .p4{
+        height: 20;
+        font-size: 15px;
+    }
+
+    .p5{
+        height: 20;
+        font-size: 15px;
+    }
+
+    .p6{
+        height: 20;
+        font-size: 15px;
     }
 
     .logo{
