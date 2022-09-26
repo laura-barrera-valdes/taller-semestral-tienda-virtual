@@ -9,6 +9,7 @@ Paleta de colores:
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Inicio del Modal */
@@ -35,7 +36,6 @@ Paleta de colores:
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
-    font-family: sans-serif;
     }
     .modal-content{
     background-color: #fafafa;
@@ -79,13 +79,11 @@ Paleta de colores:
     .modal-text h2{
     font-size: 24px;
     font-weight: 600;
-    font-family: Lato;
     }
     .modal-text p{
     font-size: 17px;
     margin-top: -15px;
     margin-bottom: 50px;
-    font-family: Lato;
     }
     .modal-footer{
     padding: 20px 30px;
@@ -161,16 +159,7 @@ Paleta de colores:
     object-fit: cover;
 }
 /* fin del carrusel */
-.logonafnaf{
-    width: 101px;
-    height: 26px;
-    padding: 12px 0px 0px 0px;
-}
 
-.botonlogo{
-    padding: 0px;
-    height: 64px;
-}
 .icondehaze{
     color: #292121;  
 }
@@ -193,64 +182,41 @@ Paleta de colores:
 .iconosder{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 96px;
 }
 
 /* MOBILE */
-@media screen and (min-width: 390px) and (max-width: 1280px){
+@media screen and (min-width: 390px) and (max-width: 1279px){
     .desktop-display {display:none}
     .mobile-display {display:block}
+    col{
+        padding: 0px;
+    }
     nav{
         line-height: 30px;
     }
-    
-    .header2{
+    .header1{
+        padding-inline: 5px;
+        margin: 0px;
+    }
+    /*.seccionmasenlaslineas{
         display: flex;
         justify-content: center;
         align-items:flex-start;
         flex-direction: column;
-        background: #292121;
+        background: #ffffff;
         padding-inline: 60px;
         margin: 0px;
         height: 100px;
+    }*/
+    .botonlogo{
+        padding: 0px;
+        height: 56px;
     }
-
-    .nav_inferior{
-        height: 100px;
-    }
-
-    .a1{
-        height: 20;
-        font-size: 12px;
-    }
-
-    .a2{
-        height: 20;
-        font-size: 12px;
-    }
-
-    .a3{
-        height: 20;
-        font-size: 12px;
-    }
-
-    .a4{
-        height: 20;
-        font-size: 12px;
-    }
-
-    .a5{
-        height: 20;
-        font-size: 12px;
-    }
-
-    .a6{
-        height: 20;
-        font-size: 12px;
-    }
-    .logo{
+    .logonafnafheader{
         width: 101px;
         height: 26px;
-        padding: 12px 0px 0px 0px;
     }
     .iconsearch{
         padding: 0px 4px 0px 4px;
@@ -261,6 +227,39 @@ Paleta de colores:
     .iconshoppingcart{
         padding: 0px 4px 0px 4px;
     }
+    /*
+    .nav_inferior{
+        height: 100px;
+    }
+        .a1{
+            height: 20;
+            font-size: 12px;
+        }
+    
+        .a2{
+            height: 20;
+            font-size: 12px;
+        }
+    
+        .a3{
+            height: 20;
+            font-size: 12px;
+        }
+    
+        .a4{
+            height: 20;
+            font-size: 12px;
+        }
+    
+        .a5{
+            height: 20;
+            font-size: 12px;
+        }
+    
+        .a6{
+            height: 20;
+            font-size: 12px;
+        }*/
 }
 
 /* DESKTOP */
@@ -286,32 +285,32 @@ Paleta de colores:
         height: 30px;
     }
 
-    .p1{
+    .a1{
         height: 20;
         font-size: 15px;
     }
 
-    .p2{
+    .a2{
         height: 20;
         font-size: 15px;
     }
 
-    .p3{
+    .a3{
         height: 20;
         font-size: 15px;
     }
 
-    .p4{
+    .a4{
         height: 20;
         font-size: 15px;
     }
 
-    .p5{
+    .a5{
         height: 20;
         font-size: 15px;
     }
 
-    .p6{
+    .a6{
         height: 20;
         font-size: 15px;
     }
