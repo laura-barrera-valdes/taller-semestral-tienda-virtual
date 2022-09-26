@@ -31,8 +31,9 @@ Paleta de colores:
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
@@ -121,7 +122,7 @@ Paleta de colores:
     input[type=submit].modal-submit-btn{
     width:90%;
     }
-    .modal-text p{
+    .modal-text h6{
     font-size: 15px;
     }
     }
@@ -187,7 +188,9 @@ Paleta de colores:
 }
 
 /* MOBILE */
-@media screen and (min-width: 390px) and (max-width: 1279px){
+@media screen and (max-width: 767px){
+    .swiperdesktop {display:none}
+    .swipermobile {display:block}
     .desktop-display {display:none}
     .mobile-display {display:block}
     col{
@@ -199,6 +202,25 @@ Paleta de colores:
     .header1{
         padding-inline: 5px;
         margin: 0px;
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+    }
+    .iconoizq{
+        width: 96px;
+    }
+    .logonafnafheader{
+        padding-block: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconosder{
+        width: 96px;
+        display: flex;
+        justify-content: flex-end;
     }
     /*.seccionmasenlaslineas{
         display: flex;
@@ -263,14 +285,38 @@ Paleta de colores:
 }
 
 /* DESKTOP */
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 768px){
+    .swipermobile {display:none}
+    .swiperdesktop {display:block}
     .mobile-display{display:none}
     .desktop-display{display:block}
     .header1{
         padding-inline: 60px;
         margin: 0px;
     }
-
+    .header1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .iconoizq{
+        width: 144px;
+    }
+    .logonafnafheader{
+        padding-block: 10px;
+        width: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .colcenter{
+        align-self: center;
+    }
+    .iconosder{
+        width: 144px;
+        display: flex;
+        justify-content: flex-end;
+    }
     .header2{
         display: flex;
         justify-content: center;
