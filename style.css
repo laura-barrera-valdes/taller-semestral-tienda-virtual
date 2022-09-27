@@ -179,6 +179,15 @@ align-items: center;
     display: flex;
     justify-content: center;
 }
+.btncomprarahora{
+    position: absolute;
+    top: 480px;
+    background: none;
+}
+.btncomprarahora:hover{
+    background-color: #ffffff;
+    color: #292121;
+}
 /* FINAL CSS GENERAL */
 
 /* MOBILE */
