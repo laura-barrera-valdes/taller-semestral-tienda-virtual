@@ -1,3 +1,4 @@
+/* INICIO CARRUSEL */
 let swiper = new Swiper(".mySwiper", {
     /* spaceBetween: 30, es para poner espacio entre las imagenes*/
     pagination: {
@@ -5,9 +6,9 @@ let swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+/* FINAL CARRUSEL */
 
-  /* Inicio del Modal */
-
+/* INICIO MODAL */
 let modal = document.getElementById('popup-modal');
 let span = document.getElementsByClassName("modal-close")[0];
 
@@ -24,5 +25,4 @@ if (event.target == modal) {
 modal.style.display = "none";
 }
 }
-
-  /*Final del Modal */
+/* FINAL MODAL */

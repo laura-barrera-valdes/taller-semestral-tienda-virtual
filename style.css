@@ -253,27 +253,22 @@ align-items: center;
             height: 20;
             font-size: 12px;
         }
-    
         .a2{
             height: 20;
             font-size: 12px;
         }
-    
         .a3{
             height: 20;
             font-size: 12px;
         }
-    
         .a4{
             height: 20;
             font-size: 12px;
         }
-    
         .a5{
             height: 20;
             font-size: 12px;
         }
-    
         .a6{
             height: 20;
             font-size: 12px;
@@ -345,7 +340,6 @@ align-items: center;
         margin: 0px;
         height: 35px;
     }
-
     .a1{
         display: flex;
         align-items: center;
@@ -353,7 +347,6 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-
     .a2{
         display: flex;
         align-items: center;
@@ -361,7 +354,6 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-
     .a3{
         display: flex;
         align-items: center;
@@ -369,7 +361,6 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-
     .a4{
         display: flex;
         align-items: center;
@@ -377,7 +368,6 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-
     .a5{
         display: flex;
         align-items: center;
@@ -385,7 +375,6 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-
     .a6{
         display: flex;
         align-items: center;
@@ -393,12 +382,12 @@ align-items: center;
         font-size: 15px;
         height: 35px;
     }
-    /* FINAL HEADER 2 DESKTOP*/
+    /* FINAL HEADER 2 DESKTOP */
     
     /* INICIO MAIN DESKTOP */
     .newcollectionimg{
         width: 100%;
     }
-    /* FINAL MAIN DESKTOP*/
+    /* FINAL MAIN DESKTOP */
 }
 /* FINAL DESKTOP */
