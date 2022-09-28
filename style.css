@@ -355,6 +355,7 @@ align-items: center;
         background: #292121;
         max-width: 900px;
         height: 35px;
+        box-shadow: none;
     }
     .header2{
         display: flex;
