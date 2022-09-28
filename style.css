@@ -178,11 +178,12 @@ align-items: center;
 .imgsup{
     display: flex;
     justify-content: center;
+    /*background-image: url("assets/newcollection.jpg");*/
 }
 .btncomprarahora{
     position: absolute;
-    top: 480px;
     background: none;
+    border: 1px solid white;
 }
 .btncomprarahora:hover{
     background-color: #ffffff;
@@ -198,20 +199,21 @@ align-items: center;
     .desktop-display {display:none}
     .mobile-display {display:block}
     /* FINAL LO QUE SE DEBE VER O NO */
+
     col{
         padding: 0px;
     }
     nav{
         line-height: 30px;
     }
+
+    /* INICIO HEADER 1 MOBILE */
     .header1{
         padding-inline: 5px;
         margin: 0px;
-        
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .iconoizq{
         width: 96px;
@@ -254,6 +256,8 @@ align-items: center;
     .iconshoppingcart{
         padding: 0px 4px 0px 4px;
     }
+    /* FINAL HEADER 1 MOBILE */
+
     /*
     .nav_inferior{
         height: 100px;
@@ -282,6 +286,15 @@ align-items: center;
             height: 20;
             font-size: 12px;
         }*/
+
+        /* INICIO MAIN MOBILE */
+        .newcollectionimg{
+            width: 1280px;/*170% o 2000px*/
+        }
+        .btncomprarahora{
+            top: 315px;
+        }
+        /* FINAL MAIN MOBILE */
 }
 
 /* INICIO DESKTOP */
@@ -292,6 +305,7 @@ align-items: center;
     .mobile-display{display:none}
     .desktop-display{display:block}
     /* FINAL LO QUE SE DEBE VER O NO */
+
     /* INICIO HEADER 1 DESKTOP */
     .header1{
         padding-inline: 60px;
@@ -330,6 +344,7 @@ align-items: center;
         color: #292121;
         padding: 0px 12px;
     }
+
     /* INICIO HEADER 2 DESKTOP */
     .desktop-display{
         display: flex;
@@ -395,7 +410,10 @@ align-items: center;
     
     /* INICIO MAIN DESKTOP */
     .newcollectionimg{
-        width: 100%;
+        width: 1680px;
+    }
+    .btncomprarahora{
+        top: 460px;
     }
     /* FINAL MAIN DESKTOP */
 }
