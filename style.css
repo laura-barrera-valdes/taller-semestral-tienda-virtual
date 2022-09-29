@@ -197,7 +197,8 @@ align-items: center;
     .swiperdesktop {display:none}
     .swipermobile {display:block}
     .desktop-display {display:none}
-    .mobile-display {display:block}
+    /*.mobile-display {display:block}*/
+    .dehazemobile{display:block}
     /* FINAL LO QUE SE DEBE VER O NO */
 
     col{
@@ -302,8 +303,9 @@ align-items: center;
     /* INICIO LO QUE SE DEBE VER O NO */
     .swipermobile {display:none}
     .swiperdesktop {display:block}
-    .mobile-display{display:none}
+    /*.mobile-display{display:none}*/
     .desktop-display{display:block}
+    .dehazemobile{display:none}
     /* FINAL LO QUE SE DEBE VER O NO */
 
     /* INICIO HEADER 1 DESKTOP */
@@ -353,7 +355,7 @@ align-items: center;
     }
     .nav_inferior{
         background: #292121;
-        max-width: 900px;
+        max-width: 700px;
         height: 35px;
         box-shadow: none;
     }
