@@ -492,3 +492,15 @@ h5{
 }
 /* FINAL DESKTOP +800px*/
 /* FINAL DESKTOP */
+
+/* INICIO FOOTER */
+.footer1{
+    background-color: #797979;
+}
+.tyc{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+/* FINAL FOOTER */
