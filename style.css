@@ -217,18 +217,26 @@ h5{
     justify-content: center;
     background-color: #292121;
 }
-.absolutee{
+.nombre_comprar{
+    position: absolute;
+    color: white;
+}
+.btncomprarahorainf{
     position: absolute;
     color: white;
     background: none;
     border: 1px solid white;
     font-size: x-small;
-    margin-top: 135px;
+}
+.btncomprarahorainf:hover{
+    background-color: #ffffff;
+    color: #292121;
+    font-weight: bold;
 }
 /* FINAL CSS GENERAL */
 
 /* MOBILE */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 600px){
     /* INICIO LO QUE SE DEBE VER O NO */
     .swiperdesktop {display:none}
     .swipermobile {display:block}
@@ -331,11 +339,17 @@ h5{
         .btncomprarahora{
             top: 315px;
         }
+        .nombre_comprar{
+            margin-top: 94%;
+        }
+        .btncomprarahorainf{
+            margin-top: 100%;
+        }
         /* FINAL MAIN MOBILE */
 }
 
 /* INICIO DESKTOP */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 601px){
     /* INICIO LO QUE SE DEBE VER O NO */
     .swipermobile {display:none}
     .swiperdesktop {display:block}
@@ -456,4 +470,25 @@ h5{
     }
     /* FINAL MAIN DESKTOP */
 }
+/* INICIO DESKTOP -800px*/
+@media screen and (min-width: 601px) and (max-width:799px){
+.nombre_comprar{
+    margin-top: 15%;
+}
+.btncomprarahorainf{
+    margin-top: 19%;
+}
+}
+/* FINAL DESKTOP -800px*/
+
+/* INICIO DESKTOP +800px*/
+@media screen and (min-width: 800px){
+    .nombre_comprar{
+        margin-top: 20%;
+    }
+    .btncomprarahorainf{
+        margin-top: 23%;
+    }
+}
+/* FINAL DESKTOP +800px*/
 /* FINAL DESKTOP */
