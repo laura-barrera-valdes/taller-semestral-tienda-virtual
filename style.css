@@ -201,8 +201,29 @@ h5{
     flex-direction: column;
 }
 .card{
-    display: table-cell;
+    margin-block: 20px;
     /*align-self: normal;*/
+}
+.sec_comprar_ahora{
+    max-width: 100%;
+    filter: opacity(70%);
+    position:relative;
+}
+.sec_comprar_ahora:hover{
+    filter: opacity(100%)
+}
+.comprar1{
+    display: flex;
+    justify-content: center;
+    background-color: #292121;
+}
+.absolutee{
+    position: absolute;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    font-size: x-small;
+    margin-top: 135px;
 }
 /* FINAL CSS GENERAL */
 
