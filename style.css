@@ -200,6 +200,10 @@ h5{
     display: flex;
     flex-direction: column;
 }
+.card{
+    display: table-cell;
+    /*align-self: normal;*/
+}
 /* FINAL CSS GENERAL */
 
 /* MOBILE */
