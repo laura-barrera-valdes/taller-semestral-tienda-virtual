@@ -503,4 +503,9 @@ h5{
     justify-content: center;
     padding-block: 20px;
 }
+.footer2{
+    background-color: #434343;
+    display: flex;
+    
+}
 /* FINAL FOOTER */
