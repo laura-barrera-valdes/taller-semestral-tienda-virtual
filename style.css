@@ -189,6 +189,17 @@ align-items: center;
     background-color: #ffffff;
     color: #292121;
 }
+h5{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px; /* ESPACIO EN TRE LETRAS */
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+.card-title{
+    display: flex;
+    flex-direction: column;
+}
 /* FINAL CSS GENERAL */
 
 /* MOBILE */
