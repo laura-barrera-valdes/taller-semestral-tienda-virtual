@@ -233,6 +233,23 @@ h5{
     color: #292121;
     font-weight: bold;
 }
+/* INICIO FOOTER */
+.footer1{
+    background-color: #797979;
+}
+.tyc{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+.footer2{
+    background-color: #434343;
+}
+.tdr{
+    color: white;
+}
+/* FINAL FOOTER */
 /* FINAL CSS GENERAL */
 
 /* MOBILE */
@@ -346,6 +363,27 @@ h5{
             margin-top: 100%;
         }
         /* FINAL MAIN MOBILE */
+
+        /* INICIO FOOTER MOBILE */
+        .footer2{
+            padding-inline: 5px;
+            padding-block: 10px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo_pago_footer{
+            height: 12px;
+            margin-inline: 5px;
+        }
+        .logo_redes_footer{
+            width: 12px;
+            height: 12px;
+            margin-inline: 5px;
+        }
+        /* FINAL FOOTER MOBILE */
 }
 
 /* INICIO DESKTOP */
@@ -469,6 +507,25 @@ h5{
         top: 460px;
     }
     /* FINAL MAIN DESKTOP */
+
+    /* INICIO FOOTER DESKTOP */
+    .footer2{
+        padding-inline: 60px;
+        padding-block: 10px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo_pago_footer{
+        height: 24px;
+        margin-inline: 5px;
+    }
+    .logo_redes_footer{
+        width: 24px;
+        margin-inline: 5px;
+    }
+    /* FINAL FOOTER DESKTOP */
 }
 /* INICIO DESKTOP -800px*/
 @media screen and (min-width: 601px) and (max-width:799px){
@@ -492,20 +549,3 @@ h5{
 }
 /* FINAL DESKTOP +800px*/
 /* FINAL DESKTOP */
-
-/* INICIO FOOTER */
-.footer1{
-    background-color: #797979;
-}
-.tyc{
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding-block: 20px;
-}
-.footer2{
-    background-color: #434343;
-    display: flex;
-    
-}
-/* FINAL FOOTER */
