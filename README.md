@@ -35,3 +35,21 @@ Landing page con header, footer, y 4 secciones:
 - Interacciones con JS
 - Links en la misma página (Anchors)
 - Otros requerimientos en comentarios de figma
+
+### Taller 2:
+
+#### Entrega 2 - 35%
+##### Octubre 28 - 7:00 am - Presencial
+
+###### Página 1: Listado/filtrado
+Página que muestra todos los productos disponibles
+- Usar un arreglo en formato Json para traer los datos
+- Listar por lo menos 15 productos
+- Panel para Filtrar productos por 4 categorias o parametros, ej: tipo de prenda, colección, sexo, genero musical, precio
+
+###### Página 2: detalle de producto
+- Uso de la ruta para encontrar el producto
+- El producto debe mostrar todas sus características (con las que se filtraría)
+- Alguna interacción (múltiples fotos, zoom a la imagen, botón falso de agregar al carrito)
+
+##### NOTA: Ambas deben estar para mobile y escritorio
