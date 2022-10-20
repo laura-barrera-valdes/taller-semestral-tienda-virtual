@@ -118,6 +118,6 @@ const data = [
         "ruta_img": "./assets/producto/pantalon/pant-5.png",
         "nombre": "Blusa 1",
         "precio": "$00.000",
-    }    
+    }
 ]
 export default data;

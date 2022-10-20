@@ -1,251 +1,254 @@
 <!DOCTYPE html> <!-- html:5 -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda virtual</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda virtual</title>
 
-    <!-- Family Type - Open Sans - Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+  <!-- Family Type - Open Sans - Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-    <link rel="stylesheet" href="style.css"> <!-- link:css -->
-    <!-- escribo link y le doy tab, despues adentro de las comillas escribo las clases -->
-    <!-- link es para que el html sepa que sus estilos vienen del archivo css -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
-    <!-- INICIO MODAL HEAD -->
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Popbox CSS -->
-    <link rel="stylesheet" type="text/css" href="css/popbox.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Popbox Js -->
-    <script src="js/popbox.js" defer></script>
+  <link rel="stylesheet" href="style.css"> <!-- link:css -->
+  <!-- escribo link y le doy tab, despues adentro de las comillas escribo las clases -->
+  <!-- link es para que el html sepa que sus estilos vienen del archivo css -->
 
-    <!-- FINAL MODAL HEAD -->
+  <!-- INICIO MODAL HEAD -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Popbox CSS -->
+  <link rel="stylesheet" type="text/css" href="css/popbox.css">
+
+  <!-- Popbox Js -->
+  <script src="js/popbox.js" defer></script>
+
+  <!-- FINAL MODAL HEAD -->
 
 </head>
+
 <body>
   <!-- INICIO MODAL -->
+  <div id="popup-modal" class="modal">
+    <div class="modal-content animated bounce">
+      <a class="modal-close">×</a>
 
-<div id="popup-modal" class="modal">
-<div class="modal-content animated bounce">
-<a class="modal-close">×</a>
+      <div class="ponerhorizontal">
+        <div class="modal-img">
+          <img class="logomodal" src="assets/logos/logo-black-nafnaf.png" alt="" />
+        </div>
+        <div class="modal-text">
+          <h2>Suscríbete ahora:</h2>
+          <h6 class="h6modal">Sé la primera persona en enterarte de nuestras últimas noticias y recibe un <b>30%</b>
+            <b>+</b> envío <b>GRATIS</b> en tu primera compra.
+          </h6>
+        </div>
+      </div>
 
-<div class="ponerhorizontal">
-  <div class="modal-img">
-  <img class="logomodal" src="assets/logos/logo-black-nafnaf.png" alt=""/>
+      <div class="modal-footer">
+        <form class="formmodal" action="https://feedburner.google.com/fb/a/mailverify" method="post" onsubmit='window.open("//feedburner.google.com/fb/a/mailverify?uri=softwebtuts/NiEc",
+        "popupwindow", "scrollbars=yes,width=550,height=520"); return true' target="popupwindow">
+          <input type="text" class="modal-input" placeholder="Escribe aquí tu correo" />
+          <input type="submit" class="modal-submit-btn" value="Suscribir" />
+        </form>
+      </div>
+    </div>
   </div>
-  <div class="modal-text">
-  <h2>Suscríbete ahora:</h2>
-  <h6 class="h6modal">Sé la primera persona en enterarte de nuestras últimas noticias y recibe un <b>30%</b> <b>+</b> envío <b>GRATIS</b> en tu primera compra.</h6>
-  </div>
-</div>
-
-<div class="modal-footer">
-<form class="formmodal" action="https://feedburner.google.com/fb/a/mailverify" method="post"
-onsubmit='window.open("//feedburner.google.com/fb/a/mailverify?uri=softwebtuts/NiEc",
-"popupwindow", "scrollbars=yes,width=550,height=520"); return true' target="popupwindow">
-<input type="text" class="modal-input" placeholder="Escribe aquí tu correo"/>
-<input type="submit" class="modal-submit-btn" value="Suscribir"/>
-</form>
-</div>
-</div>
-</div>
   <!-- FINAL MODAL -->
-    
-    <header>
-      <section class="white header1">
 
-        <article class="dehazemobile">
-          <div class="left iconoizq">
-            <a href="#!" class="iconizq"><i class="material-icons icondehaze">dehaze</i></a>
-          </div>
-        </article>
+  <header>
+    <section class="white header1">
 
-        <article class="center colcenter">
-          <a href="#!" class="brand-logo botonlogo"><img class="responsive-img logonafnafheader" src="assets/logos/logo-black-nafnaf.png"></a>
-        </article>
-
-        <article class="right iconosder">
-          <a href="#!" class="searchlink"><i class="material-icons iconsearch">search</i></a>
-          <a href="#!" class="personlink"><i class="material-icons iconperson">person</i></a>
-          <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
-        </article>
-    
-      </section>
-
-      <section class="desktop-display">
-        <nav class="nav_inferior">
-          <div class="header2">
-            <a href="#!" class="a1">NUEVO</a>
-            <a href="#!" class="a2">ROPA</a>
-            <a href="#!" class="a3">DENIM</a>
-            <a href="#!" class="a4">ORIGEN</a>
-            <a href="#!" class="a5">COMPLEMENTOS</a>
-            <a href="#!" class="a6">COLECCIONES</a>
-          </div>
-        </nav>
-      </section>
-          
-    </header>
-
-    <main>
-      <div class="imgsup">
-        <img class="newcollectionimg" src="assets/portada_main/newcollection.jpg">
-        <a class="waves-effect waves-light btn btncomprarahora">COMPRAR AHORA</a>
-      </div>
-      <!-- TITULO TOP SELLER -->
-      <h5 class="titulotopseller"><u>TOP SELLER</u></h5>
-      <!-- IMG TOP SELLER -->
-      <div class="row">
-        <section class="col s12 m4">
-          <article class="card">
-            <div class="card-image">
-              <img src="assets/top_seller/top1.jpg">
-              <div class="card-title iconos">
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
-              </div>
-            </div>
-            <div class="card-content">
-              <p>Tejido kimono</p>
-              <p><b>$ 199.900</b></p>
-            </div>
-          </article>
-        </section>
-        <section class="col s12 m4">
-          <article class="card">
-            <div class="card-image">
-              <img src="assets/top_seller/top2.jpg">
-              <div class="card-title iconos">
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
-              </div>
-            </div>
-            <div class="card-content">
-              <p>Tejido tortuga</p>
-              <p><b>$ 250.900</b></p>
-            </div>
-          </article>
-        </section>
-        <section class="col s12 m4">
-          <article class="card">
-            <div class="card-image">
-              <img src="assets/top_seller/top3.jpg">
-              <div class="card-title iconos">
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
-                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
-              </div>
-            </div>
-            <div class="card-content">
-              <p>Tejido de rayas</p>
-              <p><b>$ 189.900</b></p>
-            </div>
-          </article>
-        </section>
-      </div>
-      <div class="row seccion_comprar_ahora">
-        <section class="col s12 m3">
-          <div class="comprar1">
-            <img class="sec_comprar_ahora" src="assets/comprar_ahora/blusas.jpg">
-            <p class="nombre_comprar">BLUSAS</p>
-            <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
-          </div>
-        </section>
-        <section class="col s12 m3">
-          <div class="comprar1">
-            <img class="sec_comprar_ahora" src="assets/comprar_ahora/chaquetas.jpg">
-            <p class="nombre_comprar">CHAQUETAS</p>
-            <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
-          </div>
-        </section>
-        <section class="col s12 m3">
-          <div class="comprar1">
-            <img class="sec_comprar_ahora" src="assets/comprar_ahora/vestidos.jpg">
-            <p class="nombre_comprar">VESTIDOS</p>
-            <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
-          </div>
-        </section>
-        <section class="col s12 m3">
-          <div class="comprar1">
-            <img class="sec_comprar_ahora" src="assets/comprar_ahora/pantalones.jpg">
-            <p class="nombre_comprar">PANTALONES</p>
-            <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
-          </div>
-        </section>
-      </div>
-      <!-- TITULO RE USE -->
-      <h5 class="tituloreuse"><u>CAMPAÑA RE USE</u></h5>
-      <!-- INICIO CARRUSEL -->
-      <!-- Swiper -->
-      <div class="swipermobile">
-        <div class="swiper mySwiper">
-          <section class="swiper-wrapper">
-            <article class="swiper-slide"><img class="reuse1" src="assets/carrusel_reuse/reuse1_mobile.jpg"></article>
-            <article class="swiper-slide"><img class="reuse2" src="assets/carrusel_reuse/reuse2_mobile.jpg"></article>
-            <article class="swiper-slide"><img class="reuse3" src="assets/carrusel_reuse/reuse3_mobile.jpg"></article>
-          </section>
-          <section class="swiper-pagination"></section>
+      <article class="dehazemobile">
+        <div class="left iconoizq">
+          <a href="#!" class="iconizq"><i class="material-icons icondehaze">dehaze</i></a>
         </div>
-      </div>
-    
-      <div class="swiperdesktop">
-        <div class="swiper mySwiper">
-          <section class="swiper-wrapper">
-            <article class="swiper-slide"><img class="reuse1" src="assets/carrusel_reuse/reuse1.jpg"></article>
-            <article class="swiper-slide"><img class="reuse2" src="assets/carrusel_reuse/reuse2.jpg"></article>
-            <article class="swiper-slide"><img class="reuse3" src="assets/carrusel_reuse/reuse3.jpg"></article>
-          </section>
-          <section class="swiper-pagination"></section>
+      </article>
+
+      <article class="center colcenter">
+        <a href="#!" class="brand-logo botonlogo"><img class="responsive-img logonafnafheader"
+            src="assets/logos/logo-black-nafnaf.png"></a>
+      </article>
+
+      <article class="right iconosder">
+        <a href="#!" class="searchlink"><i class="material-icons iconsearch">search</i></a>
+        <a href="#!" class="personlink"><i class="material-icons iconperson">person</i></a>
+        <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
+      </article>
+
+    </section>
+
+    <section class="desktop-display">
+      <nav class="nav_inferior">
+        <div class="header2">
+          <a href="#!" class="a1">NUEVO</a>
+          <a href="#!" class="a2">ROPA</a>
+          <a href="#!" class="a3">DENIM</a>
+          <a href="#!" class="a4">ORIGEN</a>
+          <a href="#!" class="a5">COMPLEMENTOS</a>
+          <a href="#!" class="a6">COLECCIONES</a>
         </div>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <div class="imgsup">
+      <img class="newcollectionimg" src="assets/portada_main/newcollection.jpg">
+      <a class="waves-effect waves-light btn btncomprarahora">COMPRAR AHORA</a>
+    </div>
+    <!-- TITULO TOP SELLER -->
+    <h5 class="titulotopseller"><u>TOP SELLER</u></h5>
+    <!-- IMG TOP SELLER -->
+    <div class="row">
+      <section class="col s12 m4">
+        <article class="card">
+          <div class="card-image">
+            <img src="assets/top_seller/top1.jpg">
+            <div class="card-title iconos">
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
+            </div>
+          </div>
+          <div class="card-content">
+            <p>Tejido kimono</p>
+            <p><b>$ 199.900</b></p>
+          </div>
+        </article>
+      </section>
+      <section class="col s12 m4">
+        <article class="card">
+          <div class="card-image">
+            <img src="assets/top_seller/top2.jpg">
+            <div class="card-title iconos">
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
+            </div>
+          </div>
+          <div class="card-content">
+            <p>Tejido tortuga</p>
+            <p><b>$ 250.900</b></p>
+          </div>
+        </article>
+      </section>
+      <section class="col s12 m4">
+        <article class="card">
+          <div class="card-image">
+            <img src="assets/top_seller/top3.jpg">
+            <div class="card-title iconos">
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
+              <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">favorite</i></a>
+            </div>
+          </div>
+          <div class="card-content">
+            <p>Tejido de rayas</p>
+            <p><b>$ 189.900</b></p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <div class="row seccion_comprar_ahora">
+      <section class="col s12 m3">
+        <div class="comprar1">
+          <img class="sec_comprar_ahora" src="assets/comprar_ahora/blusas.jpg">
+          <p class="nombre_comprar">BLUSAS</p>
+          <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
+        </div>
+      </section>
+      <section class="col s12 m3">
+        <div class="comprar1">
+          <img class="sec_comprar_ahora" src="assets/comprar_ahora/chaquetas.jpg">
+          <p class="nombre_comprar">CHAQUETAS</p>
+          <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
+        </div>
+      </section>
+      <section class="col s12 m3">
+        <div class="comprar1">
+          <img class="sec_comprar_ahora" src="assets/comprar_ahora/vestidos.jpg">
+          <p class="nombre_comprar">VESTIDOS</p>
+          <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
+        </div>
+      </section>
+      <section class="col s12 m3">
+        <div class="comprar1">
+          <img class="sec_comprar_ahora" src="assets/comprar_ahora/pantalones.jpg">
+          <p class="nombre_comprar">PANTALONES</p>
+          <a class="waves-effect waves-light btn btncomprarahorainf">COMPRAR AHORA</a>
+        </div>
+      </section>
+    </div>
+    <!-- TITULO RE USE -->
+    <h5 class="tituloreuse"><u>CAMPAÑA RE USE</u></h5>
+    <!-- INICIO CARRUSEL -->
+    <!-- Swiper -->
+    <div class="swipermobile">
+      <div class="swiper mySwiper">
+        <section class="swiper-wrapper">
+          <article class="swiper-slide"><img class="reuse1" src="assets/carrusel_reuse/reuse1_mobile.jpg"></article>
+          <article class="swiper-slide"><img class="reuse2" src="assets/carrusel_reuse/reuse2_mobile.jpg"></article>
+          <article class="swiper-slide"><img class="reuse3" src="assets/carrusel_reuse/reuse3_mobile.jpg"></article>
+        </section>
+        <section class="swiper-pagination"></section>
       </div>
+    </div>
 
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      <script src="tiendavirtual.js"></script>
+    <div class="swiperdesktop">
+      <div class="swiper mySwiper">
+        <section class="swiper-wrapper">
+          <article class="swiper-slide"><img class="reuse1" src="assets/carrusel_reuse/reuse1.jpg"></article>
+          <article class="swiper-slide"><img class="reuse2" src="assets/carrusel_reuse/reuse2.jpg"></article>
+          <article class="swiper-slide"><img class="reuse3" src="assets/carrusel_reuse/reuse3.jpg"></article>
+        </section>
+        <section class="swiper-pagination"></section>
+      </div>
+    </div>
 
-      <!-- FINAL CARRUSEL -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="tiendavirtual.js"></script>
 
-    </main>
+    <!-- FINAL CARRUSEL -->
+  </main>
 
-    <footer>
+  <footer>
+    <section class="footer1">
+      <a href="#!" class="tyc">Términos y condiciones</a>
+    </section>
 
-      <section class="footer1">
-        <a href="#!" class="tyc">Términos y condiciones</a>
-      </section>
-
-      <section class="footer2">
-        <article class="logos_pagos_footer">
-            <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/baloto.png"></a>
-            <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/visa.png"></a>
-            <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/payu.png"></a>
-            <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/digicert.png"></a>
-        </article>
-        <article class="logos_redes_footer">
-          <a href="#!" class="boton_logo_footer"><img class="logo_redes_footer" src="assets/logos/footer/logo_facebook.png"></a>
-          <a href="#!" class="boton_logo_footer"><img class="logo_redes_footer" src="assets/logos/footer/logo_instagram.png"></a>
-          <a href="#!" class="boton_logo_footer"><img class="logo_redes_footer" src="assets/logos/footer/logo_whatsapp.png"></a>
-        </article>
-        <article class="dere_reser">
-            <a href="#!" class="tdr">Todos los derechos reservados NAF NAF © 2022</a>
-        </article>
-      </section>
-    </footer>
+    <section class="footer2">
+      <article class="logos_pagos_footer">
+        <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/baloto.png"></a>
+        <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/visa.png"></a>
+        <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/payu.png"></a>
+        <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer" src="assets/logos/footer/digicert.png"></a>
+      </article>
+      <article class="logos_redes_footer">
+        <a href="#!" class="boton_logo_footer"><img class="logo1_redes_footer"
+            src="assets/logos/footer/logo_facebook.png"></a>
+        <a href="#!" class="boton_logo_footer"><img class="logo2_redes_footer"
+            src="assets/logos/footer/logo_instagram.png"></a>
+        <a href="#!" class="boton_logo_footer"><img class="logo3_redes_footer"
+            src="assets/logos/footer/logo_whatsapp.png"></a>
+      </article>
+      <article class="dere_reser">
+        <a href="#!" class="tdr">Todos los derechos reservados NAF NAF © 2022</a>
+      </article>
+    </section>
+  </footer>
 </body>
+
 </html>
