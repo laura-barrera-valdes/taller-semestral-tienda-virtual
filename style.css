@@ -4,11 +4,20 @@ Paleta de colores:
 #434343
 #797979
 */
+
+body {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+}
+
+.swiper-pagination-bullet:hover {
+    opacity: 0.4;
 }
 
 /* INICIO MODAL */
@@ -238,6 +247,10 @@ h5 {
     /*align-self: normal;*/
 }
 
+.card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
 .sec_comprar_ahora {
     max-width: 100%;
     filter: opacity(70%);
@@ -276,12 +289,12 @@ h5 {
 /* INICIO FOOTER */
 .footer1 {
     background-color: #797979;
+    display: flex;
+    justify-content: center;
 }
 
 .tyc {
     color: white;
-    display: flex;
-    justify-content: center;
     padding-block: 20px;
 }
 
@@ -574,12 +587,20 @@ h5 {
         height: 35px;
     }
 
+    .a1:hover {
+        color: #797979;
+    }
+
     .a2 {
         display: flex;
         align-items: center;
         height: 20;
         font-size: 15px;
         height: 35px;
+    }
+
+    .a2:hover {
+        color: #797979;
     }
 
     .a3 {
@@ -590,12 +611,20 @@ h5 {
         height: 35px;
     }
 
+    .a3:hover {
+        color: #797979;
+    }
+
     .a4 {
         display: flex;
         align-items: center;
         height: 20;
         font-size: 15px;
         height: 35px;
+    }
+
+    .a4:hover {
+        color: #797979;
     }
 
     .a5 {
@@ -606,12 +635,20 @@ h5 {
         height: 35px;
     }
 
+    .a5:hover {
+        color: #797979;
+    }
+
     .a6 {
         display: flex;
         align-items: center;
         height: 20;
         font-size: 15px;
         height: 35px;
+    }
+
+    .a6:hover {
+        color: #797979;
     }
 
     /* FINAL HEADER 2 DESKTOP */
