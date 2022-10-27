@@ -189,10 +189,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 99;
-}
-
-main {
-    margin-top: 103px;
+    /* posiciona en el eje z - 1 va debajo y los numeros mas altos van sobre*/
 }
 
 .material-icons {
@@ -359,8 +356,12 @@ h5 {
     /* FINAL FOOTER MOBILE */
 }
 
-/* MOBILE */
+/* INICIO MOBILE */
 @media screen and (max-width: 600px) {
+
+    main {
+        margin-top: 45px;
+    }
 
     /* INICIO LO QUE SE DEBE VER O NO */
     .swiperdesktop {
@@ -450,35 +451,6 @@ h5 {
 
     /* FINAL HEADER 1 MOBILE */
 
-    /*
-    .nav_inferior{
-        height: 100px;
-    }
-        .a1{
-            height: 20;
-            font-size: 12px;
-        }
-        .a2{
-            height: 20;
-            font-size: 12px;
-        }
-        .a3{
-            height: 20;
-            font-size: 12px;
-        }
-        .a4{
-            height: 20;
-            font-size: 12px;
-        }
-        .a5{
-            height: 20;
-            font-size: 12px;
-        }
-        .a6{
-            height: 20;
-            font-size: 12px;
-        }*/
-
     /* INICIO MAIN MOBILE */
     .newcollectionimg {
         width: 1280px;
@@ -503,6 +475,10 @@ h5 {
 
 /* INICIO DESKTOP */
 @media screen and (min-width: 601px) {
+
+    main {
+        margin-top: 103px;
+    }
 
     /* INICIO LO QUE SE DEBE VER O NO */
     .swipermobile {
@@ -585,7 +561,7 @@ h5 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-inline: 60px;
+        padding-inline: 30px;
         margin: 0px;
         height: 35px;
     }
@@ -593,9 +569,9 @@ h5 {
     .a1 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 5px;
     }
 
     .a1:hover {
@@ -605,9 +581,14 @@ h5 {
     .a2 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 5px;
+    }
+
+    .a2ropa {
+        color: #292121;
+        background-color: #ffffff;
     }
 
     .a2:hover {
@@ -617,9 +598,9 @@ h5 {
     .a3 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 5px;
     }
 
     .a3:hover {
@@ -629,9 +610,9 @@ h5 {
     .a4 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 10px;
     }
 
     .a4:hover {
@@ -641,9 +622,9 @@ h5 {
     .a5 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 5px;
     }
 
     .a5:hover {
@@ -653,9 +634,9 @@ h5 {
     .a6 {
         display: flex;
         align-items: center;
-        height: 20;
         font-size: 15px;
         height: 35px;
+        padding-inline: 5px;
     }
 
     .a6:hover {

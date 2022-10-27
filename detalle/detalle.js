@@ -1,1 +1,1 @@
-console.log(new URLSearchParams(window.location.search));
+/*console.log(new URLSearchParams(window.location.search).get('id'));*/
