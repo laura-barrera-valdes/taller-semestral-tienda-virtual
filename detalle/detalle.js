@@ -1,0 +1,1 @@
+console.log(new URLSearchParams(window.location.search));
