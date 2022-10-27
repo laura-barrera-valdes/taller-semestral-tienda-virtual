@@ -184,6 +184,17 @@ input[type=submit].modal-submit-btn {
 /* FINAL CARRUSEL */
 
 /* INICIO CSS GENERAL */
+header {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+main {
+    margin-top: 103px;
+}
+
 .material-icons {
     color: #292121;
 }
