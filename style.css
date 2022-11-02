@@ -13,10 +13,6 @@ Paleta de colores:
     flex-direction: row;
 }
 
-.situar {
-    margin: 0.75rem;
-    margin-top: 120px;
-}
 
 h1 {
     font-size: 30px;
@@ -491,6 +487,12 @@ h5 {
     /* FINAL HEADER 1 MOBILE */
 
     /* INICIO MAIN MOBILE */
+
+    .situar {
+        margin: 0.75rem;
+        margin-top: 20px;
+    }
+
     .newcollectionimg {
         width: 1280px;
         /*170% o 2000px*/
@@ -699,6 +701,12 @@ h5 {
     /* FINAL HEADER 2 DESKTOP */
 
     /* INICIO MAIN DESKTOP */
+
+    .situar {
+        margin: 0.75rem;
+        margin-top: 120px;
+    }
+
     .newcollectionimg {
         width: 1680px;
     }
