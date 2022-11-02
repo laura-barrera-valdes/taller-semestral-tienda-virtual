@@ -36,3 +36,9 @@ function renderProduct() {
     img.setAttribute('src', product.ruta_img);
     img2.setAttribute('src', product.ruta_img_hover);
 };
+
+function displayCategories(){
+    const categoriesArr = []
+    data.forEach((data)=>{
+    })
+}

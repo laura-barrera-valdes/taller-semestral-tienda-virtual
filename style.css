@@ -234,11 +234,24 @@ header {
     color: #797979;
 }
 
+.derechacosas {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .iconosder {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 96px;
+    width: 200px;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 250px;
 }
 
 .searchlink {
@@ -811,4 +824,20 @@ h5 {
 
 .valor {
     margin-block: 10px;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #292121;
+    box-shadow: 0 1px 0 0 #292121;
+}
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #292121;
+    box-shadow: 0 1px 0 0 #292121;
+}
+
+input {
+    margin: 0.75rem;
+    width: 200px;
 }
