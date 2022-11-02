@@ -6,13 +6,36 @@ Paleta de colores:
 0.75rem
 */
 
+.enlinea{
+    margin-inline: 0.75rem;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.situar{
+    margin: 0.75rem;
+    margin-top: 120px;
+}
+
+h2 {
+    margin-block: 10px;
+}
+
+.card {
+    margin-inline: 10px;
+    padding-inline: 0px;
+}
+
 #products-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
-.margenproduct{
-    margin: 0.75rem
+
+.margenproduct {
+    margin: 0.75rem;
 }
 
 body {
@@ -267,7 +290,7 @@ h5 {
 }
 
 .card {
-    margin-block: 20px;
+    /*margin-block: 20px;*/
     /*align-self: normal;*/
 }
 
@@ -744,3 +767,44 @@ h5 {
 
 /* FINAL DESKTOP +800px*/
 /* FINAL DESKTOP */
+
+/* INICIO CSS DETALLE */
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta_producto {
+    max-width: 800px;
+}
+
+.ordenar_prod {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.imagen_prod {
+    width: 20px;
+}
+
+.descr_1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-inline: 3px;
+}
+
+.descr_2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.simbolo_pesos {
+    margin-block: 10px;
+}
+
+.valor {
+    margin-block: 10px;
+}
