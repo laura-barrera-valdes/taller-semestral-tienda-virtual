@@ -23,7 +23,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="stylesheet" href="style.css"> <!-- link:css -->
+    <link rel="stylesheet" href="../style.css"> <!-- link:css -->
     <!-- escribo link y le doy tab, despues adentro de las comillas escribo las clases -->
     <!-- link es para que el html sepa que sus estilos vienen del archivo css -->
 
@@ -40,8 +40,8 @@
             </article>
 
             <article class="center colcenter">
-                <a href="./home.html" class="brand-logo botonlogo"><img class="responsive-img logonafnafheader"
-                        src="assets/logos/logo-black-nafnaf.png"></a>
+                <a href="../home.html" class="brand-logo botonlogo"><img class="responsive-img logonafnafheader"
+                        src="../assets/logos/logo-black-nafnaf.png"></a>
             </article>
 
             <article class="right iconosder">
@@ -54,9 +54,10 @@
 
         <section class="desktop-display">
             <nav class="nav_inferior">
+                <hr>
                 <div class="header2">
                     <a href="#!" class="a1">NUEVO</a>
-                    <a href="./ropa.html" class="a2 a2ropa"><u><strong>ROPA</strong></u></a>
+                    <a href="./ropa.html" class="a2 a2ropa"><strong>ROPA</strong></a>
                     <a href="#!" class="a3">DENIM</a>
                     <a href="#!" class="a4">ORIGEN</a>
                     <a href="#!" class="a5">COMPLEMENTOS</a>
@@ -66,14 +67,47 @@
         </section>
     </header>
     <main>
-        <section id="products-container"></section>
         <h1>Soy ropa</h1>
-        <a href="./detalle/detalle.html" target="_blank"><img class="newcollectionimg"
-                src="assets/portada_main/newcollection.jpg">
-        </a>
+        <div class="margenproduct">
+            <section id="products-container"></section>
+        </div>
+        </section>
+        </div>
         <!-- target="_blank" es para abrir el link en una nueva pestaña -->
     </main>
 
+    <footer>
+        <section class="footer1">
+            <a href="#!" class="tyc">Términos y condiciones</a>
+        </section>
+
+        <section class="footer2">
+            <article class="logos_pagos_footer">
+                <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer"
+                        src="../assets/logos/footer/baloto.png"></a>
+                <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer"
+                        src="../assets/logos/footer/visa.png"></a>
+                <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer"
+                        src="../assets/logos/footer/payu.png"></a>
+                <a href="#!" class="boton_logo_footer"><img class="logo_pago_footer"
+                        src="../assets/logos/footer/digicert.png"></a>
+            </article>
+            <article class="logos_redes_footer">
+                <a href="#!" class="boton_logo_footer"><img class="logo1_redes_footer"
+                        src="../assets/logos/footer/logo_facebook.png"></a>
+                <a href="#!" class="boton_logo_footer"><img class="logo2_redes_footer"
+                        src="../assets/logos/footer/logo_instagram.png"></a>
+                <a href="#!" class="boton_logo_footer"><img class="logo3_redes_footer"
+                        src="../assets/logos/footer/logo_whatsapp.png"></a>
+            </article>
+            <article class="dere_reser">
+                <p class="tdr">Todos los derechos reservados NAF NAF © 2022</p>
+            </article>
+        </section>
+    </footer>
+
 </body>
+<script src="../producto/producto.js"></script>
+<script src="./ropa.js"></script>
 
 </html>
