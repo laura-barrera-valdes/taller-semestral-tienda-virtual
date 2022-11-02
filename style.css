@@ -6,20 +6,25 @@ Paleta de colores:
 0.75rem
 */
 
-.enlinea{
+.enlinea {
     margin-inline: 0.75rem;
     margin-top: 120px;
     display: flex;
     flex-direction: row;
 }
 
-.situar{
+.situar {
     margin: 0.75rem;
     margin-top: 120px;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 h2 {
     margin-block: 10px;
+    font-size: 24px;
 }
 
 .card {
@@ -287,11 +292,6 @@ h5 {
 .nombre {
     color: #292121;
     /*font-size: 15px;*/
-}
-
-.card {
-    /*margin-block: 20px;*/
-    /*align-self: normal;*/
 }
 
 .card:hover {
@@ -784,10 +784,6 @@ h5 {
     flex-direction: row;
     align-content: space-between;
     padding: 20px;
-}
-
-.imagen_prod {
-    width: 20px;
 }
 
 .descr_1 {
