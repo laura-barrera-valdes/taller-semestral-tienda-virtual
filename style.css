@@ -790,20 +790,14 @@ h5 {
 /* FINAL DESKTOP */
 
 /* INICIO CSS DETALLE */
-.centrar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .carta_producto {
-    max-width: 800px;
+    margin-top: 30px;
 }
 
 .ordenar_prod {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
     padding: 20px;
 }
 
