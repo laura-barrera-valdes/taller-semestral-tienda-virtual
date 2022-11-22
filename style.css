@@ -251,7 +251,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    max-width: 250px;
+    max-width: 150px;
 }
 
 .searchlink {
@@ -501,10 +501,10 @@ h5 {
 
     /* INICIO MAIN MOBILE */
 
-    .situar {
+    .indicar_ubicacion {
         margin: 0.75rem;
-        margin-top: 20px;
-    }
+        margin-top: 60px;
+    }    
 
     .newcollectionimg {
         width: 1280px;
@@ -715,10 +715,10 @@ h5 {
 
     /* INICIO MAIN DESKTOP */
 
-    .situar {
+    .indicar_ubicacion {
         margin: 0.75rem;
         margin-top: 120px;
-    }
+    }    
 
     .newcollectionimg {
         width: 1680px;
