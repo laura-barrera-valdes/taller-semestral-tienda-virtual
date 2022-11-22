@@ -1,0 +1,21 @@
+[debug] [2022-11-22T23:10:08.454Z] ----------------------------------------------------------------------
+[debug] [2022-11-22T23:10:08.456Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\laura\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-22T23:10:08.457Z] CLI Version:   11.16.1
+[debug] [2022-11-22T23:10:08.458Z] Platform:      win32
+[debug] [2022-11-22T23:10:08.458Z] Node Version:  v16.18.0
+[debug] [2022-11-22T23:10:08.459Z] Time:          Tue Nov 22 2022 18:10:08 GMT-0500 (hora estándar de Colombia)
+[debug] [2022-11-22T23:10:08.459Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-22T23:10:08.471Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-22T23:10:08.471Z] > authorizing via signed-in user (laurabv99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\laura\UNIVERSIDAD\2022-2\WEB\taller-semestral-tienda-virtual
+
