@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- html:5 -->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ropa</title>
+    <title>Tienda virtual</title>
 
     <!-- Family Type - Open Sans - Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +30,10 @@
 </head>
 
 <body>
+    <!-- INICIO FIREBASE -->
+    <script type="module" src="./firebase/firebase.js"></script>
+    <!-- FINAL FIREBASE -->
+
     <header>
         <section class="white header1">
 
@@ -44,20 +48,11 @@
                         src="../assets/logos/logo-black-nafnaf.png"></a>
             </article>
 
-            <div class="derechacosas">
-                <article class="right buscador">
-                    <label for="keyword">Buscar: </label>
-                    <input type="text" class="inputarriba" id="keyword">
-
-                </article>
-
-                <article class="right iconosder">
-                    <a href="#!" class="searchlink"><i class="material-icons iconsearch">search</i></a>
-                    <a href="../login/login.html" class="personlink"><i class="material-icons iconperson">person</i></a>
-                    <a href="#!" class="shoppingcartlink"><i
-                            class="material-icons iconshoppingcart">shopping_cart</i></a>
-                </article>
-            </div>
+            <article class="right iconosder">
+                <a href="#!" class="searchlink"><i class="material-icons iconsearch">search</i></a>
+                <a href="./login.html" class="personlink"><i class="material-icons iconperson">person</i></a>
+                <a href="#!" class="shoppingcartlink"><i class="material-icons iconshoppingcart">shopping_cart</i></a>
+            </article>
 
         </section>
 
@@ -66,7 +61,7 @@
                 <hr>
                 <div class="header2">
                     <a href="#!" class="a1">NUEVO</a>
-                    <a href="./ropa.html" class="a2 a2ropa"><strong>ROPA</strong></a>
+                    <a href="./ropa/ropa.html" class="a2">ROPA</a>
                     <a href="#!" class="a3">DENIM</a>
                     <a href="#!" class="a4">ORIGEN</a>
                     <a href="#!" class="a5">COMPLEMENTOS</a>
@@ -75,17 +70,34 @@
             </nav>
         </section>
     </header>
-    <main>
-        <article class="indicar_ubicacion">
-            <p class="situar">Home > <b>Ropa</b></p>
-        </article>
 
-        <div class="margenproduct">
-            <section id="products-container"></section>
+    <main>
+        <!-- TITULO TOP SELLER -->
+        <h5 class="titulotopseller"><u>CREAR USUARIO</u></h5>
+        <!-- IMG TOP SELLER -->
+        <div class="row">
+            <section class="col s12 m4">
+            </section>
+            <section class="col s12 m4">
+                <form action="">
+                    <label for="Title">Title</label>
+                    <input id="title" type="text">
+                    <br>
+                    <label for="otroo">otro</label>
+                    <input id="otro" type="text">
+                </form>
+            </section>
+            <section class="col s12 m4">
+            </section>
         </div>
+
+        <!-- TITULO RE USE -->
+        <h5 class="tituloreuse"><u>CAMPAÑA RE USE</u></h5>
+        <!-- INICIO VIDEO CAMPAÑA REUSE -->
+        <section class="video-container">
+            <iframe width="853" height="480" src="//www.youtube.com/embed/5LmAapusYw0" frameborder="0"
+                allowfullscreen></iframe>
         </section>
-        </div>
-        <!-- target="_blank" es para abrir el link en una nueva pestaña -->
     </main>
 
     <footer>
@@ -117,9 +129,6 @@
             </article>
         </section>
     </footer>
-
 </body>
-<script src="../producto/producto.js"></script>
-<script src="./ropa.js"></script>
 
 </html>
