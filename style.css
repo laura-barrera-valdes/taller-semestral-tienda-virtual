@@ -6,54 +6,6 @@ Paleta de colores:
 0.75rem
 */
 
-.enlinea {
-    margin-inline: 0.75rem;
-    margin-top: 120px;
-    display: flex;
-    flex-direction: row;
-}
-
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    margin-block: 10px;
-    font-size: 24px;
-}
-
-.card {
-    margin-inline: 10px;
-    padding-inline: 0px;
-}
-
-#products-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.margenproduct {
-    margin: 0.75rem;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.swiper-pagination-bullet:hover {
-    opacity: 0.4;
-}
-
 /* INICIO MODAL */
 .h6modal {
     padding-inline: 10px;
@@ -218,6 +170,54 @@ input[type=submit].modal-submit-btn {
 /* FINAL CARRUSEL */
 
 /* INICIO CSS GENERAL */
+.enlinea {
+    margin-inline: 0.75rem;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    margin-block: 10px;
+    font-size: 24px;
+}
+
+.card {
+    margin-inline: 10px;
+    padding-inline: 0px;
+}
+
+#products-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.margenproduct {
+    margin: 0.75rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.swiper-pagination-bullet:hover {
+    opacity: 0.4;
+}
+
 header {
     top: 0px;
     width: 100%;
@@ -292,6 +292,10 @@ h5 {
     margin-bottom: 32px;
 }
 
+.titulocrearusuario {
+    margin-top: 150px;
+}
+
 .card-title {
     display: flex;
     flex-direction: column;
@@ -340,6 +344,78 @@ h5 {
     background-color: #ffffff;
     color: #292121;
     font-weight: bold;
+}
+
+/* label color */
+.input-field label {
+    color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #000;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+
+.colordefondo {
+    background-color: #292121;
+    padding: 20px;
+}
+
+#email.validate {
+    color: white; /* texto que se ingresa color blanco */
+}
+
+#password {
+    color: white; /* texto que se ingresa color blanco */
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border-bottom: 1px solid white;
+}
+
+.centrarboton {
+    display: flex;
+    justify-content: center;
+}
+
+#botoncrearusuario {
+    background: none;
+    border: 1px solid white;
 }
 
 /* INICIO FOOTER */
@@ -504,7 +580,7 @@ h5 {
     .indicar_ubicacion {
         margin: 0.75rem;
         margin-top: 60px;
-    }    
+    }
 
     .newcollectionimg {
         width: 1280px;
@@ -718,7 +794,7 @@ h5 {
     .indicar_ubicacion {
         margin: 0.75rem;
         margin-top: 120px;
-    }    
+    }
 
     .newcollectionimg {
         width: 1680px;

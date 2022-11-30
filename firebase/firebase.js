@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-import { getAuth, createUserWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -21,18 +21,18 @@ console.log("hola!");
 
 const auth = getAuth(app); //este objeto es para el servicio Autenticar (lo hice con correo y contraseña)
 
-export function newUser(email, password){
+export function newUser(email, password) {
     createUserWithEmailAndPassword(auth, email, password)//crear el usuario
         .then((userCredential) => {
             //cuando ya esté creado el usuario, va a pasar ésto
             // Signed in 
             const user = userCredential.user;
+            console.log(user);
             // ...
         })
         .catch((error) => {
             //si no se puede crear el usuario, sucede ésto
-            const errorCode = error.code;
             const errorMessage = error.message;
-            // ..
+            alert(errorMessage)
         });
 }
